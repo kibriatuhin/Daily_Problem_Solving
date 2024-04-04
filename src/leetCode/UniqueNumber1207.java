@@ -1,5 +1,6 @@
 package leetCode;
 
+import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -27,8 +28,18 @@ public class UniqueNumber1207 {
 
         return false;
     }
+    static int test(){
+        try{
+            System.out.println("try");
+        }catch (Exception e){
+            System.out.println(e);
+        }finally {
+            System.out.println("Finally");
+        }
+        return 0;
+    }
     public static void main(String[] args) {
-        int[] array = {1,2,2,1,1,3};
-        System.out.println(uniqueOccurrences(array));
+        System.out.println(test());
+
     }
 }
